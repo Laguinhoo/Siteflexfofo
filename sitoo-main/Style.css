@@ -1,0 +1,321 @@
+*{
+color: aliceblue;
+font-family:Arial, Helvetica, sans-serif;
+margin: 0;
+padding: 0;
+box-sizing: border-box;}
+
+body{
+background-image:url(img_9.jpg);
+background-repeat:  no-repeat;
+background-size: 100%;
+}
+
+section{margin-left: 250px;}
+
+#coiseto{
+ width: 250px;
+height: 100vh;
+background-color: black;
+position: fixed;  
+padding-top: 30px;
+}
+
+a{
+text-decoration: none;;
+}
+
+
+ li{
+list-style: none;
+margin-left: 15%;
+font-size: 75%;
+margin-bottom: 10%;
+}
+
+#decolor{
+text-decoration: none;
+margin-left: 15%;
+padding-top: 10%;
+font-size: 20px;
+font-style: bold;
+}
+
+.icones li{
+    display: inline-block;
+    
+    padding-top: 5%;
+}
+
+#iconresiz{
+width:80px;
+margin-left: 10%;
+padding-top: 5%;
+}
+
+#espacolista{ margin-top: 5%;}
+
+#welcome{ 
+font-size: 60px;
+padding-left: 40%;
+padding-top: 20%;
+}
+
+#texto1{
+    font-size: 20px;
+    font-style:unset;
+    padding-left: 25%;
+    text-align: center;
+    line-height: 1.5;
+    font-weight: 100;
+}
+
+#resize{ 
+    width: 1400px;
+}
+
+#btn{
+margin-left: 45%;
+margin-bottom: 26%;
+margin-top: 4%;
+color: aliceblue;
+background-color: #df0e62;
+border: 1px solid transparent;
+border-radius: 50px;
+width: 10%;
+line-height: 2.5;
+font-size: 20px;
+}
+
+
+.imagens{
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    padding-top: 0%;
+}
+
+.imagens div { 
+    
+overflow: hidden;
+width: 33%;
+height: 300px;
+flex-wrap: wrap;
+border: solid;
+border-color: transparent;
+
+}
+
+.imagens div :hover{
+
+    filter: brightness(50%);
+    transition: 0.30s;
+    cursor:pointer;
+}
+
+.image{
+background-color: black;
+}
+
+#testimonial{background-color: black;}
+
+#testimonialdentro{
+margin-left: 460px;
+height: 700px;
+display: flex;
+justify-content: center;
+flex-direction: column;
+}
+
+#brother{
+    margin-left: 260px;
+    border-radius: 100%;
+    width: 170px;
+    height: 170px;
+}
+
+#texto2{
+margin-left: 140px;
+margin-bottom: 7%;
+font-size: 60px;
+}
+
+#johnSmith{
+margin-left: 300px;
+margin-top:30px;
+font-size: 15px;}
+
+#lorem{
+    line-height: 2;
+    padding-top: 20px;
+    font-size: 20px;
+    text-align: center;
+    width: 700px;
+    
+    
+}
+
+
+
+#biography{
+background-color: #1a1a1a;
+padding-left: 400px;
+}
+
+#bio{
+font-size: 60px;
+padding-top: 10%;
+padding-bottom: 5%;
+}
+
+#brothersinho{
+width: 30%;
+border-radius: 1%;
+}
+
+.lorem2{
+width: 850px;
+font-size: 15px;
+color: grey;
+line-height: 1.7;
+font-weight: 100;
+}
+
+#hiimjed{
+font-size: 25px;
+padding-top: 4%;
+padding-bottom: 1%;
+}
+
+#cosinhosetc{
+    padding-top: 5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 20px;
+    width: 600px;
+    padding-bottom: 10%;
+}
+
+#listonha{
+    list-style: square;
+}
+
+#blog{
+    background-color: black;
+    padding-left: 400px;
+}
+
+.imgblog{
+ 
+    width: 250px;
+}
+
+.espaçolista{
+    margin-left: 0;
+    display: flex;
+    flex-direction: row;
+}
+
+.blablabla{
+    padding-left: 5%;
+    display: flex;
+    flex-direction: column;
+}
+
+#contact{
+    background-color: #1a1a1a;
+}
+
+.vermei{
+    color:#df0e62;
+}
+
+.verimei :hover{
+    cursor: pointer;
+    color:#971124;
+}
+
+.piquininim{
+
+    width: 500px;
+    font-size: 17px;
+    color: grey;
+    line-height: 1.7;
+}
+
+
+.linhas {
+
+
+    BACKGROUND: TRANSPARENT;
+    BORDER: NONE;
+    OUTLINE: NONE;
+    BORDER-BOTTOM: SOLID grey 2px;
+    padding-bottom: 5%;
+}
+
+#linha {
+
+    width: 80%;
+
+}
+
+#linha1 {
+
+    width: 40%;
+
+}
+.msg {
+
+    color: aliceblue;
+    background-color: #df0e62;
+    border: 1px solid transparent;
+    border-radius: 50px;
+    width: 25%;
+    line-height: 2.5;
+    font-size: 20px;
+    margin-bottom: 10%;
+    margin-top: 10%;
+
+}
+
+#espacocont{
+    padding-left: 400px;
+    padding-top: 10%;}
+
+#rodinha{
+    padding-top: 50px;
+    font-size: 17px;
+    color: grey;
+    line-height: 1.7;
+    font-weight: 100;
+    padding-left: 500px;
+}
+
+#footer{
+    height: 150px;
+    background-color: black;}
+
+    #primeiro{margin-left: 420px;}
+
+.con{
+    font-size:60px ;
+    margin-bottom: 5%;
+}
+
+#paginas{
+    padding-left: 400px;
+    padding-bottom: 7%;    
+}
+
+#tamo{
+    padding-top: 20px;
+}
+
+#bumtchaka li :hover{
+    color: #df0e62;
+    transition: 0.20s;
+}
